@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca64c47e2c13e14fa5d86347737cc86, type: 3}
+  m_Name: Golem
+  m_EditorClassIdentifier: 
+  name: Golem
+  enemyType: 4
+  rarity: 1
+  baseHP: 1000
+  charPrefabs: {fileID: 7298028268895127506, guid: 9458b952330fd744c938c1a15a462a19,
+    type: 3}
+  physAttack: 50
+  magAttack: 100
+  physDefense: 100
+  magDefense: 100
+  critRate: 5
+  critDmg: 5
+  speed: 60
+  face: {fileID: 8786494229190453691, guid: fcd3cb261266555408092b0db4743001, type: 3}
+  learnableMovesEnemies:
+  - moveBase: {fileID: 11400000, guid: 8cd53dd83d3cefe4587ecffcb9ba9e92, type: 2}
+    level: 0
+  drops:
+  - item: {fileID: 11400000, guid: 951b972b1dd6a624f810642edd0682ff, type: 2}
+    dropChance: 1
+  - item: {fileID: 11400000, guid: 85402e5c85f230840add19e2f170c702, type: 2}
+    dropChance: 0.308

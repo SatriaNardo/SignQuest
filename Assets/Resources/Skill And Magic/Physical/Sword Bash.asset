@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752e116b533d18a4ca3607f90be8e76b, type: 3}
+  m_Name: Sword Bash
+  m_EditorClassIdentifier: 
+  name: Sword Bash
+  description: Bash your sword to the enemies and deals Physical Damage, may inflict
+    stun
+  attackType: 0
+  basePower: 75
+  mpComsumption: 10
+  timeCasting: 1

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef66db23b9fd9241abd8b64ba8dda16, type: 3}
+  m_Name: Mage
+  m_EditorClassIdentifier: 
+  name: Mage
+  heroType: 1
+  baseHP: 1000
+  baseMP: 100
+  currentLevel: 6
+  charPrefabs: {fileID: 8310600050819341077, guid: 98cf491c14d47f4439f7fbd0deccb717,
+    type: 3}
+  charUI: {fileID: 8310600050819341077, guid: 2c6677f73c7ef46488821a28219ee9ef, type: 3}
+  charSlot: {fileID: 8310600050819341077, guid: 1582f9d03212f3f4faf9bf5e7eace9e5,
+    type: 3}
+  physAttack: 175
+  magAttack: 100
+  physDefense: 50
+  magDefense: 50
+  critRate: 5
+  critDmg: 100
+  speed: 80
+  learnableMovesHeroes:
+  - moveBase: {fileID: 11400000, guid: c1ca3a8baef9fd4468ef14222b76caee, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 099e61abcf0ac7642877a31186442125, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: f3f46ca86a8950a43b674cab7ffe24af, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: e815c0d5bf6649b4ba053b604bcbe3cd, type: 2}
+    level: 0
+  face: {fileID: 4208166837879701831, guid: f9818e56b77d62142af50bc4ad8e489f, type: 3}

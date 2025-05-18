@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef66db23b9fd9241abd8b64ba8dda16, type: 3}
+  m_Name: Warrior
+  m_EditorClassIdentifier: 
+  name: Warrior
+  heroType: 0
+  baseHP: 2000
+  baseMP: 500
+  currentLevel: 5
+  charPrefabs: {fileID: 3850741450417114893, guid: 863524e3248993c41a517dd83b36727d,
+    type: 3}
+  charUI: {fileID: 1830926553638775298, guid: 470909a0277d31e4292ec1b0059a0040, type: 3}
+  charSlot: {fileID: 1830926553638775298, guid: ebb81b3f4b11b6749b51b1332f9da741,
+    type: 3}
+  physAttack: 100
+  magAttack: 20
+  physDefense: 70
+  magDefense: 50
+  critRate: 5
+  critDmg: 100
+  speed: 100
+  learnableMovesHeroes:
+  - moveBase: {fileID: 11400000, guid: 8cd53dd83d3cefe4587ecffcb9ba9e92, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 2ce5c8f978cd8004ab6e3f348d07d4d7, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 223ae0c49b04f3e4d9e85a65e37f46e2, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 04ea3af01f9b4aa428cc37dcda65d73b, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 38bc2c9ecb675e647a50866aa56e7903, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 01488c083a439674d849ff671008906a, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 05e8a68237836bf4cbd51ca3ae618432, type: 2}
+    level: 0
+  face: {fileID: 5737800334681967205, guid: ea031ad957fdfac438569c5b44f11d0a, type: 3}

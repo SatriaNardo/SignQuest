@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef66db23b9fd9241abd8b64ba8dda16, type: 3}
+  m_Name: Archer
+  m_EditorClassIdentifier: 
+  name: Archer
+  heroType: 2
+  baseHP: 1500
+  baseMP: 250
+  currentLevel: 4
+  charPrefabs: {fileID: 230706383943940089, guid: de89ab99ea48f4e469ce8031fbeafb11,
+    type: 3}
+  charUI: {fileID: 230706383943940089, guid: a984de14786c9c34d8f94977250efe4b, type: 3}
+  charSlot: {fileID: 230706383943940089, guid: dd60ca3887dedfb41bf3503339ca5167, type: 3}
+  physAttack: 120
+  magAttack: 100
+  physDefense: 60
+  magDefense: 60
+  critRate: 5
+  critDmg: 100
+  speed: 130
+  learnableMovesHeroes:
+  - moveBase: {fileID: 11400000, guid: 8cd53dd83d3cefe4587ecffcb9ba9e92, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 382f4da91f5b953408260d82abfbb368, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: ca3171fab8fc200479742c8a20ae9c69, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 8a11eef9a47f3dd4bab5430aef0ed580, type: 2}
+    level: 0
+  face: {fileID: 1802759367893345099, guid: f99d396fcc7eacf47b4f617f986c27d0, type: 3}

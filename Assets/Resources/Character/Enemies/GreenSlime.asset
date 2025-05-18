@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca64c47e2c13e14fa5d86347737cc86, type: 3}
+  m_Name: GreenSlime
+  m_EditorClassIdentifier: 
+  name: GreenSlime
+  enemyType: 4
+  rarity: 0
+  baseHP: 1000
+  charPrefabs: {fileID: 7498145441282458250, guid: 520abbdd2fa53f74891cd83de14b4d59,
+    type: 3}
+  physAttack: 60
+  magAttack: 50
+  physDefense: 50
+  magDefense: 50
+  critRate: 0
+  critDmg: 100
+  speed: 80
+  face: {fileID: 758240129732603729, guid: 479a2346513beee4ca1be9c0d3e17f14, type: 3}
+  learnableMovesEnemies:
+  - moveBase: {fileID: 11400000, guid: 8cd53dd83d3cefe4587ecffcb9ba9e92, type: 2}
+    level: 0
+  drops:
+  - item: {fileID: 11400000, guid: 04ccc87a250a63e44a01b643d344b778, type: 2}
+    dropChance: 1
+  - item: {fileID: 11400000, guid: b3f2bc98d6f51ef4d9d73e545829d101, type: 2}
+    dropChance: 0.783
