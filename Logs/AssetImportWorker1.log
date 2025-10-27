@@ -1,0 +1,2148 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.48f1 (8bf49c377ebf) revision 9172124'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15577 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Unity\Unity\2022.3.48f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Unity/Unity Game/SignWuest
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58213
+Successfully changed project path to: C:/Unity/Unity Game/SignWuest
+C:/Unity/Unity Game/SignWuest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [44960]  Target information:
+
+Player connection [44960]  * "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 1313112316 [EditorId] 1313112316 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LSJ63DOT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [44960] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [44960] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Refreshing native plugins compatible for Editor in 7.88 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.48f1 (8bf49c377ebf)
+[Subsystems] Discovering subsystems at path C:/Unity/Unity/2022.3.48f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/Unity Game/SignWuest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5050 Laptop GPU (ID=0x2dd8)
+    Vendor:   NVIDIA
+    VRAM:     7822 MB
+    Driver:   32.0.15.7702
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Initialize mono
+Mono path[0] = 'C:/Unity/Unity/2022.3.48f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/Unity/2022.3.48f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Unity/Unity/2022.3.48f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity/Unity/2022.3.48f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Unity/Unity/2022.3.48f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Unity/Unity/2022.3.48f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007180 seconds.
+- Loaded All Assemblies, in  0.278 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 268 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.480 seconds
+Domain Reload Profiling: 757ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (99ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (480ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (449ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (329ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.739 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.809 seconds
+Domain Reload Profiling: 2546ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (559ms)
+		LoadAssemblies (408ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (166ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1809ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1665ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (1509ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 6.07 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6742 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (2.1 MB). Loaded Objects now: 7210.
+Memory consumption went from 343.0 MB to 340.8 MB.
+Total: 10.839900 ms (FindLiveObjects: 1.680000 ms CreateObjectMapping: 0.355600 ms MarkObjects: 7.305800 ms  DeleteObjects: 1.495600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 164421.089894 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_834.asset
+  artifactKey: Guid(5fc873fbae507ef458d194f86e9598e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_834.asset using Guid(5fc873fbae507ef458d194f86e9598e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5dc484b1fedebed7e817fd966a9af0cb') in 0.058735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_68.asset
+  artifactKey: Guid(145e82f81977940408ed367da4ac537d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_68.asset using Guid(145e82f81977940408ed367da4ac537d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c6e1ef461c114b2f058f941daed9657a') in 0.005710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_216.asset
+  artifactKey: Guid(a2710709adcfda845850b76f5857c658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_216.asset using Guid(a2710709adcfda845850b76f5857c658) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c7adf6eab5e32bc5b21cf22d58983948') in 0.006245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_515.asset
+  artifactKey: Guid(6d9a40f4f0e3925478debb41b967038a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_515.asset using Guid(6d9a40f4f0e3925478debb41b967038a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'dbbbd77749f4898cf8657d0ba5e91478') in 0.004947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_664.asset
+  artifactKey: Guid(6f302c37ba19aba4c878e27df7fa2752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_664.asset using Guid(6f302c37ba19aba4c878e27df7fa2752) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0c8400fcbd27341e9ed9708294837298') in 0.005961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_588.asset
+  artifactKey: Guid(e6e80f50121ece44dac099559a3fd5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_588.asset using Guid(e6e80f50121ece44dac099559a3fd5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b29188f00089e3ea24141873e3321a42') in 0.006011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_973.asset
+  artifactKey: Guid(2b8733f14d3b1f84890d2add210986e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_973.asset using Guid(2b8733f14d3b1f84890d2add210986e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'aca407d727bd8576cc67754034e76453') in 0.004601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_473.asset
+  artifactKey: Guid(963fbf0b838375c48ba90c8bcad8638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_473.asset using Guid(963fbf0b838375c48ba90c8bcad8638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ccb60ccdfc6e363b94d1edb3e32739cc') in 0.006841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_501.asset
+  artifactKey: Guid(d28fa98d8c5210b4b9c20471c452807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_501.asset using Guid(d28fa98d8c5210b4b9c20471c452807b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b99fa32fde22c3429f0f98e40610db69') in 0.005637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_629.asset
+  artifactKey: Guid(fc9e5396cf5b64f46a4e5a6c319f833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_629.asset using Guid(fc9e5396cf5b64f46a4e5a6c319f833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7a9cd36461ef008464b6e432ab1370a3') in 0.004545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_29.asset
+  artifactKey: Guid(23fe3959102457844a7e38de35c0398f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_29.asset using Guid(23fe3959102457844a7e38de35c0398f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd42618aac2589567cca0a723bd7bd9c4') in 0.005067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_877.asset
+  artifactKey: Guid(6c83e6a8af557164c9259e5a16070ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_877.asset using Guid(6c83e6a8af557164c9259e5a16070ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '62f395ba02c57b3a91ed52f3ec15404f') in 0.005058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_226.asset
+  artifactKey: Guid(aceba491af1edbf4d84d4841d841e644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_226.asset using Guid(aceba491af1edbf4d84d4841d841e644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0e279cdb42970c7edd3f57b6ba36e174') in 0.003505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_618.asset
+  artifactKey: Guid(931e30741ba728948b90bc337f6939ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_618.asset using Guid(931e30741ba728948b90bc337f6939ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e75b6847525a97c22aa866e5ae427cd6') in 0.004104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_3.asset
+  artifactKey: Guid(90b57547045d1f7438c3e8bd76bfaa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_3.asset using Guid(90b57547045d1f7438c3e8bd76bfaa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9e413eaabe9157fb6e38370eeb1fd633') in 0.004324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_257.asset
+  artifactKey: Guid(1100be1aacc1a764dabe454a03f46e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_257.asset using Guid(1100be1aacc1a764dabe454a03f46e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd9dad36999032e59183c1bd7f25b69d3') in 0.004742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_479.asset
+  artifactKey: Guid(656bf2e922f52374992ecc2ad0e54eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_479.asset using Guid(656bf2e922f52374992ecc2ad0e54eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '556dffa53a6226b390e0bb9acc07dd68') in 0.005985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_219.asset
+  artifactKey: Guid(f74228b4f26c669418c62324ba5bb81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_219.asset using Guid(f74228b4f26c669418c62324ba5bb81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '96cf8a8d038ff7ffe2c4c9f8c9e48038') in 0.006446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_50.asset
+  artifactKey: Guid(1da9493a242973c46ba4825941b3196a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_50.asset using Guid(1da9493a242973c46ba4825941b3196a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4fae3836418c4fa869896701abfcf86d') in 0.004163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_99.asset
+  artifactKey: Guid(57c6f7d5c6335b94bbf766e6a0433043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_99.asset using Guid(57c6f7d5c6335b94bbf766e6a0433043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e88142e179f6e88fe5d162536a0d78fa') in 0.003652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_25.asset
+  artifactKey: Guid(f7754ad05c54b3546af9232d2c604532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_25.asset using Guid(f7754ad05c54b3546af9232d2c604532) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'af1ae30ad9bbe23b80a38e01954592ae') in 0.004351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_80.asset
+  artifactKey: Guid(1ff199a2d84f33d4faffaccc5243c31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_80.asset using Guid(1ff199a2d84f33d4faffaccc5243c31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bd7164c1597a3357ca767338e6f2439a') in 0.005110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_613.asset
+  artifactKey: Guid(7fddc1692a3e16c4786a0383631511d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_613.asset using Guid(7fddc1692a3e16c4786a0383631511d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cc21053a52443a7c3021b274a27a9694') in 0.004455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_340.asset
+  artifactKey: Guid(f4b4ae9705e11574fbe1e4796f065b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_340.asset using Guid(f4b4ae9705e11574fbe1e4796f065b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '447d779072b21278456230ca4fa38b33') in 0.005193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_47.asset
+  artifactKey: Guid(30e4c6db875ed254388caa76b67d8012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_47.asset using Guid(30e4c6db875ed254388caa76b67d8012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a4bd671abafeb0bf19d02d15a34774db') in 0.006300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_594.asset
+  artifactKey: Guid(20e5c272f26bb8f4a8f506d05cc83d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_594.asset using Guid(20e5c272f26bb8f4a8f506d05cc83d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c0344fda75d6cf41a8e63c3a1be1d16c') in 0.005154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_845.asset
+  artifactKey: Guid(7fc8ab0ee975e744a9d817ea8d598da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_845.asset using Guid(7fc8ab0ee975e744a9d817ea8d598da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3fac7c6b579b216ac5141e4e02c0edaf') in 0.004510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_220.asset
+  artifactKey: Guid(ea7f2bf49f4049643b7bff3cb3e3a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_220.asset using Guid(ea7f2bf49f4049643b7bff3cb3e3a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3d82f7edeaee1bdda710a08e954c28ed') in 0.003958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_107.asset
+  artifactKey: Guid(cc6aa08296f46a14483983bca3775028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_107.asset using Guid(cc6aa08296f46a14483983bca3775028) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1c4337cbf8940a1dd3e0dd756e0da08c') in 0.005310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_32.asset
+  artifactKey: Guid(db9e36e4c470fd043a6dc261134dc57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_32.asset using Guid(db9e36e4c470fd043a6dc261134dc57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '201ecbfddd3cc24cf99b883794f82a07') in 0.006315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_94.asset
+  artifactKey: Guid(02adfe6555f89014a8fa922b65b5892b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_94.asset using Guid(02adfe6555f89014a8fa922b65b5892b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '144b8d96cc7f4e513aec09a5b6b9cd8c') in 0.004580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_17.asset
+  artifactKey: Guid(90afd4bd279f5a44fb3be8159a7ecfd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_17.asset using Guid(90afd4bd279f5a44fb3be8159a7ecfd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5ac1ed3d36275242dc31f2fd4a201549') in 0.004562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_525.asset
+  artifactKey: Guid(2968bbc4f719e604db12a41f9a1c1b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_525.asset using Guid(2968bbc4f719e604db12a41f9a1c1b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd9ae79152f3d81fb6a8a83a92928444c') in 0.006124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_824.asset
+  artifactKey: Guid(99ddcf6d4f68f8f4581ec5463da9a527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_824.asset using Guid(99ddcf6d4f68f8f4581ec5463da9a527) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '29df718ccd446985b0d0d0fea7278e60') in 0.004603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_507.asset
+  artifactKey: Guid(b951b505dd9e7a946b589a56a237f155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_507.asset using Guid(b951b505dd9e7a946b589a56a237f155) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8876f8de9f84c46d7c007847719c0cd7') in 0.003674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_46.asset
+  artifactKey: Guid(3dea16030224b3143b39125f06bf7d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_46.asset using Guid(3dea16030224b3143b39125f06bf7d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1563ee62a9ce94edef2de8bedf4ff6c9') in 0.004107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_516.asset
+  artifactKey: Guid(74b4a0685a4c45b4c864cc6be4251767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_516.asset using Guid(74b4a0685a4c45b4c864cc6be4251767) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4a1e9b21ce751baf1a8a26c1d57a12d1') in 0.004419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_603.asset
+  artifactKey: Guid(fcad9ae3eb6ac9843b4da31b786c402f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_603.asset using Guid(fcad9ae3eb6ac9843b4da31b786c402f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bc5ff5966700034d93fd39fc8d0030c0') in 0.004810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_794.asset
+  artifactKey: Guid(cfa680f5ae6a6e34097c5dba362ee9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_794.asset using Guid(cfa680f5ae6a6e34097c5dba362ee9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bff777b1c6421573055291c9402badc8') in 0.004367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_41.asset
+  artifactKey: Guid(52bd866efe671ae45a4648ae8be557da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_41.asset using Guid(52bd866efe671ae45a4648ae8be557da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '999f285c6725baa970ff854d3cca4512') in 0.006321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_9.asset
+  artifactKey: Guid(dfeb45f88054ed3419c510c401880b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_9.asset using Guid(dfeb45f88054ed3419c510c401880b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '157874d79a4e90509790b7b97f8c7288') in 0.007274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_95.asset
+  artifactKey: Guid(6bce94974439ec9419f40b11361472f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_95.asset using Guid(6bce94974439ec9419f40b11361472f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '724b2fc9670882c26e54d2ef529f4bd8') in 0.005613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_275.asset
+  artifactKey: Guid(e7de405883d29fa419e781c0df46e79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_275.asset using Guid(e7de405883d29fa419e781c0df46e79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b61b62ad5f732f29d9f1e14242e8739f') in 0.005386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_869.asset
+  artifactKey: Guid(b39b10a47d1790245ac34caa6bbadd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_869.asset using Guid(b39b10a47d1790245ac34caa6bbadd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '56202afae21b83b550b98543872d9fec') in 0.005682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_223.asset
+  artifactKey: Guid(c3f873b62f3703c4bbc748b61cef974c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_223.asset using Guid(c3f873b62f3703c4bbc748b61cef974c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e49d262762efe97281d891cbcdf3e324') in 0.004451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_593.asset
+  artifactKey: Guid(be0e267dab87aba4e824b132674f60b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_593.asset using Guid(be0e267dab87aba4e824b132674f60b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '783871b2d752c5ce9e2faf772b718a3d') in 0.005374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_658.asset
+  artifactKey: Guid(f7b7a1d8a3ce10a47877168e80f36a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_658.asset using Guid(f7b7a1d8a3ce10a47877168e80f36a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9a4894bca8cb9b7a33f7a848a69484ac') in 0.005169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_527.asset
+  artifactKey: Guid(d91aef0835fc7c64ca08f9dd9628c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_527.asset using Guid(d91aef0835fc7c64ca08f9dd9628c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'eb296826c243ca5482f8fa2271df8ce4') in 0.004585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_521.asset
+  artifactKey: Guid(132891db71b74344cb70d6d28d482b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_521.asset using Guid(132891db71b74344cb70d6d28d482b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '53b157ff5bac2fdf500151ffb6fed5b6') in 0.004738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_984.asset
+  artifactKey: Guid(deac8ca356af34b4188065b144504167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_984.asset using Guid(deac8ca356af34b4188065b144504167) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5c02749eb6acb0465229b4e663438d12') in 0.003870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_265.asset
+  artifactKey: Guid(1ec499a15dbada541931559a910beb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_265.asset using Guid(1ec499a15dbada541931559a910beb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '45c16af656df31887a967f24c111fcda') in 0.004393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_18.asset
+  artifactKey: Guid(503954c85283f824f94a1b1f89b73471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_18.asset using Guid(503954c85283f824f94a1b1f89b73471) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e6ab83a4f44ffd52fc729409f04ac1c9') in 0.003631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_830.asset
+  artifactKey: Guid(3fba7edf5d122e34796b6269fb2c1f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_830.asset using Guid(3fba7edf5d122e34796b6269fb2c1f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ad1b40c7ab9a4ad197faca5a9e3b573a') in 0.004995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_839.asset
+  artifactKey: Guid(f05df6fee1ff0d445b167f051c992821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_839.asset using Guid(f05df6fee1ff0d445b167f051c992821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6945af3c31ecd4abf03d90af25da3e74') in 0.004727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_612.asset
+  artifactKey: Guid(049db8fe482dc6a4c9cff04530840052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_612.asset using Guid(049db8fe482dc6a4c9cff04530840052) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '87e375e93ab60c1ecfc365242f03c54e') in 0.006568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_782.asset
+  artifactKey: Guid(d1721135ec6617e489e1275baa68ca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_782.asset using Guid(d1721135ec6617e489e1275baa68ca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '55d16302e4ba5bf060ea4ae690ca4b8b') in 0.005249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_101.asset
+  artifactKey: Guid(b67fe398573d0f340b1c27a709d4ba13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_101.asset using Guid(b67fe398573d0f340b1c27a709d4ba13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3bdbe9a99d962e4ee41dab5b1a3c6227') in 0.003704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_518.asset
+  artifactKey: Guid(323ec6228ffa5a84aa57e8c268f57bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_518.asset using Guid(323ec6228ffa5a84aa57e8c268f57bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cda9345f11361f92b7f6408ff81fcc87') in 0.005096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_985.asset
+  artifactKey: Guid(3d6001608ae7b994d9a50ce871a0b840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_985.asset using Guid(3d6001608ae7b994d9a50ce871a0b840) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e406997f3b9173babc049b3e17ec363a') in 0.004449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Caves/Animations/Caves_Ani 2.asset
+  artifactKey: Guid(100e47101baf6a04ca95e49265335861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Caves/Animations/Caves_Ani 2.asset using Guid(100e47101baf6a04ca95e49265335861) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b318bcd360ee35f2f27a0b81579bf9b3') in 0.001530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_873.asset
+  artifactKey: Guid(196b2983113906a4e8193e98b8a0cdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_873.asset using Guid(196b2983113906a4e8193e98b8a0cdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'acf05277a30fe5175b51931e902b4075') in 0.004997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_96.asset
+  artifactKey: Guid(983da060c8147b349abd92991afd59d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_96.asset using Guid(983da060c8147b349abd92991afd59d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ba16c8cb1eeec8959442af26bba686ae') in 0.004553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_483.asset
+  artifactKey: Guid(5aafef7f04c1c1e44935dcf8492d3d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_483.asset using Guid(5aafef7f04c1c1e44935dcf8492d3d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cadcfdcb532540ed81235ed4b53f3530') in 0.004093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_12.asset
+  artifactKey: Guid(3cd6ec1000159eb448e6550459bd20f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_12.asset using Guid(3cd6ec1000159eb448e6550459bd20f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '286783143202deb68fbd29c16fd558da') in 0.004625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_787.asset
+  artifactKey: Guid(077cb2ac1f33e0b45acc7b77bc04b1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_787.asset using Guid(077cb2ac1f33e0b45acc7b77bc04b1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '25c80bbc957eff0cee01f9f0f9614ad0') in 0.004896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_92.asset
+  artifactKey: Guid(9c0f37189bd2216429446482f4126229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_92.asset using Guid(9c0f37189bd2216429446482f4126229) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2b6e9d12730d0f5e2d57a3b89db68dc1') in 0.003762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_947.asset
+  artifactKey: Guid(fbf1742fc98e3bc40bacd7901f8632fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_947.asset using Guid(fbf1742fc98e3bc40bacd7901f8632fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e6351b8c033fafb6768b0584d7a2cd2f') in 0.005540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_330.asset
+  artifactKey: Guid(eb500c754aeb93f4995b062ee781090c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_330.asset using Guid(eb500c754aeb93f4995b062ee781090c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9bc449e4265b15420b63a11b8b8939d0') in 0.005364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_777.asset
+  artifactKey: Guid(9d87e298ee82bf14b92a9ce0d87b2dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_777.asset using Guid(9d87e298ee82bf14b92a9ce0d87b2dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c6b238be873a9e409cc3d60e070ede68') in 0.005723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_930.asset
+  artifactKey: Guid(1f1d88407f45f2346959ca14f94ca4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_930.asset using Guid(1f1d88407f45f2346959ca14f94ca4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'dde4fe9a756c6f09ac7bbea63be041ae') in 0.004770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_62.asset
+  artifactKey: Guid(9b3a71482a11d574e94da8812e67b286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_62.asset using Guid(9b3a71482a11d574e94da8812e67b286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd987a995d9e4aaec2fb98e947f8cc87e') in 0.005613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_0.asset
+  artifactKey: Guid(f1627006272bfa648937c50217288a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_0.asset using Guid(f1627006272bfa648937c50217288a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd72cce9d01206454924f312e9fc05285') in 0.004313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_833.asset
+  artifactKey: Guid(8fdecffc6f6fc2b4881a77addd331d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_833.asset using Guid(8fdecffc6f6fc2b4881a77addd331d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6f3e48d6a98c259cd4ba8601c657f68f') in 0.006432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_225.asset
+  artifactKey: Guid(223acb56c5710cc4c8c71eed0809710c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_225.asset using Guid(223acb56c5710cc4c8c71eed0809710c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a631e6ee48cbb89094fd57e8ea041c72') in 0.003771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_876.asset
+  artifactKey: Guid(23acd05f500215840a296a2058271838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_876.asset using Guid(23acd05f500215840a296a2058271838) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '836f5818dfb247045ed3df355dc37963') in 0.005441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_502.asset
+  artifactKey: Guid(24e6af400be7a9847921002fec9c3543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_502.asset using Guid(24e6af400be7a9847921002fec9c3543) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '19fe109d384cd63a04c62be0b85cd3e8') in 0.005808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_98.asset
+  artifactKey: Guid(78f80c6a2627542428dfe74d4e7c496b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_98.asset using Guid(78f80c6a2627542428dfe74d4e7c496b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fb335c2f06c285f4a5c482d21c386ab8') in 0.004751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_12.asset
+  artifactKey: Guid(754972ffeff63634898b2c63ab3258a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_12.asset using Guid(754972ffeff63634898b2c63ab3258a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6cefc59c110a92cc70232462be788ff3') in 0.004417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_986.asset
+  artifactKey: Guid(1d1e216a616f7b84d8205cb30b198e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_986.asset using Guid(1d1e216a616f7b84d8205cb30b198e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a706eba16f5ac35962cce2111c2edf0d') in 0.005717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_84.asset
+  artifactKey: Guid(3311f40e587dbf44daae16116679e2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_84.asset using Guid(3311f40e587dbf44daae16116679e2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '892b84af1b9c3d923a2b08d851bf3672') in 0.004379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_504.asset
+  artifactKey: Guid(bf841b03e0ec1374cbc4ddcc35160504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_504.asset using Guid(bf841b03e0ec1374cbc4ddcc35160504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4ebf58c492d819700e3586bfc0836944') in 0.005819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_948.asset
+  artifactKey: Guid(2c9185a984f1f744ebf76ce184682a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_948.asset using Guid(2c9185a984f1f744ebf76ce184682a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '15b6541a068cd3ab2110764e0b8e4e81') in 0.005302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_88.asset
+  artifactKey: Guid(405c18387aaba754bade270f81b66805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_88.asset using Guid(405c18387aaba754bade270f81b66805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '37314f828e8f551b6c8fa7fc38333bdc') in 0.008154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_86.asset
+  artifactKey: Guid(035d69bc757b9814b8557e1dd27efaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_86.asset using Guid(035d69bc757b9814b8557e1dd27efaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '94757f4d877f00c92e51c7cf7e550ca3') in 0.004666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_79.asset
+  artifactKey: Guid(a954f96f8517a28489bba086bf33c152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_79.asset using Guid(a954f96f8517a28489bba086bf33c152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '146fdbfc2d944bf763ae2050ae4d4ac4') in 0.005243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_349.asset
+  artifactKey: Guid(677cfac33610db5438ca075e354156f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_349.asset using Guid(677cfac33610db5438ca075e354156f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7d7dc3df1d96b98f9714793e57ba45da') in 0.004561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_93.asset
+  artifactKey: Guid(6741fa9f3b5e34d49b80b4f91983c8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_93.asset using Guid(6741fa9f3b5e34d49b80b4f91983c8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1926928cfbc09ab11568ab712c4882c6') in 0.004616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_52.asset
+  artifactKey: Guid(5d86f2ab37997d64a916268ecf94b8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_52.asset using Guid(5d86f2ab37997d64a916268ecf94b8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3ce6ea211d4c34dda517bd14668e90cc') in 0.005272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_936.asset
+  artifactKey: Guid(cfd5874249e397b4ca5b3c8197712cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_936.asset using Guid(cfd5874249e397b4ca5b3c8197712cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '697ece8e13f90bd196de7d23edb94c07') in 0.004959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_45.asset
+  artifactKey: Guid(a5a5c5934fd01c64db56ee432f05b3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_45.asset using Guid(a5a5c5934fd01c64db56ee432f05b3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5e084b5676dae5986705ae27e77beb92') in 0.004201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_788.asset
+  artifactKey: Guid(b43c987381e6eec4eaa623411219b27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_788.asset using Guid(b43c987381e6eec4eaa623411219b27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '363df3ccb9a0ebbea818a1682a205e73') in 0.005035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_40.asset
+  artifactKey: Guid(6eafc327160d06340b90d16bd665e721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_40.asset using Guid(6eafc327160d06340b90d16bd665e721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ed1147bd8ac2b102e3c8d0ae82261113') in 0.003805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_932.asset
+  artifactKey: Guid(c747cbc4507857842baec9115c910c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_932.asset using Guid(c747cbc4507857842baec9115c910c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '79d9c7d133a8bb074f2d2372fdefa168') in 0.005354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_34.asset
+  artifactKey: Guid(fab0db959ba10c74390e0d10daced1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_34.asset using Guid(fab0db959ba10c74390e0d10daced1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '29bfd2988d81fe4944888b68841559bb') in 0.005845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_514.asset
+  artifactKey: Guid(6a0a167a86596c94b9fca5553a03856d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_514.asset using Guid(6a0a167a86596c94b9fca5553a03856d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2d8c22d1060c7158fc455a4bb20d3229') in 0.005247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_218.asset
+  artifactKey: Guid(bf7edaddf02b9634392a61a942114a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_218.asset using Guid(bf7edaddf02b9634392a61a942114a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c116dd9850880cf12328972e08332841') in 0.007728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_614.asset
+  artifactKey: Guid(42158cad3c2746741bcc25817260fc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_614.asset using Guid(42158cad3c2746741bcc25817260fc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0460319fa9ea3c7bc0d41759ad704d5e') in 0.005632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_846.asset
+  artifactKey: Guid(bca134b948d100d4c984ddfa8cbbcf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_846.asset using Guid(bca134b948d100d4c984ddfa8cbbcf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '753e6658ef6e65d6663c9b6af10c660f') in 0.007056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_609.asset
+  artifactKey: Guid(2946d5a5497927d42ba55bfa93e6d0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_609.asset using Guid(2946d5a5497927d42ba55bfa93e6d0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '554b7a0e61db74a08ce9a83a5e402343') in 0.007878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_77.asset
+  artifactKey: Guid(5cdb08f5027995a4b8ee17de2a8ef691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_77.asset using Guid(5cdb08f5027995a4b8ee17de2a8ef691) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fe099d4f2b067ac2a535dc5b9fe451de') in 0.005163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_506.asset
+  artifactKey: Guid(31e3e110df188864683af75e583d0846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_506.asset using Guid(31e3e110df188864683af75e583d0846) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '43651e9d5af862f9d536bd0bc287d796') in 0.007283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_600.asset
+  artifactKey: Guid(da5ecaf935306b349a3cd2424e721efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_600.asset using Guid(da5ecaf935306b349a3cd2424e721efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '737fb9baf0c732ef8eb282c0552207b3') in 0.005640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_790.asset
+  artifactKey: Guid(c6533971164090b4cbccbd7082709638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_790.asset using Guid(c6533971164090b4cbccbd7082709638) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '93c42d45e5d961f63d3859faaa84a7c3') in 0.004651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_509.asset
+  artifactKey: Guid(f9b870a54cae6504bbc7921b81d2963f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_509.asset using Guid(f9b870a54cae6504bbc7921b81d2963f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '87280b534acab5495fff8b3e96a3eaf1') in 0.004474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_104.asset
+  artifactKey: Guid(229051507a5ee88428dbdc02d2d7d5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_104.asset using Guid(229051507a5ee88428dbdc02d2d7d5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1bd11959d4f287f3e38853ea3e636bb7') in 0.005374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Caves/Animations/Caves_Ani 7.asset
+  artifactKey: Guid(b7fbb9324a524524f96b51094f417399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Caves/Animations/Caves_Ani 7.asset using Guid(b7fbb9324a524524f96b51094f417399) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b8bbf5777d2292ac4040da6f55ca63fd') in 0.001195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_276.asset
+  artifactKey: Guid(03096a28f6319fe4e8e08ea59914afbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_276.asset using Guid(03096a28f6319fe4e8e08ea59914afbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '92e2931e1631c865020c317e7f9235c7') in 0.005356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_217.asset
+  artifactKey: Guid(c7af42d7c7baa99449d8993b3208d5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_217.asset using Guid(c7af42d7c7baa99449d8993b3208d5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '392bde225fb7e93ccee7db0aeb672a61') in 0.005157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_337.asset
+  artifactKey: Guid(4809f62233ca2ed49b55f7c1a7577fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_337.asset using Guid(4809f62233ca2ed49b55f7c1a7577fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '59229a77e2c9a112995f97b43d1140e3') in 0.005776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_620.asset
+  artifactKey: Guid(8a855e875d9f0fb4da5e1c0cf43a5bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_620.asset using Guid(8a855e875d9f0fb4da5e1c0cf43a5bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f8a38cd5baf84937a62299fd8026e9bc') in 0.004512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_43.asset
+  artifactKey: Guid(05ca5fde904d6174db0ecb6ef0707165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_43.asset using Guid(05ca5fde904d6174db0ecb6ef0707165) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '14cac92c165937180c8280bc0765f907') in 0.004660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_847.asset
+  artifactKey: Guid(330b6b14d1ed5c043a90b8ef073555fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_847.asset using Guid(330b6b14d1ed5c043a90b8ef073555fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '33b27eac2e07ab81abc876ef1431d5b6') in 0.004000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_339.asset
+  artifactKey: Guid(5c5a8928a8c1dab40855821dfe74facb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_339.asset using Guid(5c5a8928a8c1dab40855821dfe74facb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2d52e95e8a4802d26cbf2d07885714b0') in 0.005698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_17.asset
+  artifactKey: Guid(a425fd143e26e6944962bbefe82ea565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_17.asset using Guid(a425fd143e26e6944962bbefe82ea565) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c62bd46c99a84e529757fde448bca25b') in 0.005320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_611.asset
+  artifactKey: Guid(1801e313d4738b64fb9b033c04ad9f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_611.asset using Guid(1801e313d4738b64fb9b033c04ad9f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '65c7ee5f8dce202bbe7d25b0132d5934') in 0.007848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_227.asset
+  artifactKey: Guid(62f73842452a0da4a93a332d042c05de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_227.asset using Guid(62f73842452a0da4a93a332d042c05de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '71ae5c8786bbaef2cf557d6a5f0f2507') in 0.004311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_344.asset
+  artifactKey: Guid(c88d2eb51fa82b94497e78787b751ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_344.asset using Guid(c88d2eb51fa82b94497e78787b751ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4d17201baed5d3d5716bb05c2ff5c710') in 0.004831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_29.asset
+  artifactKey: Guid(730bd1f1d75367b46bfd504a48d89006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_29.asset using Guid(730bd1f1d75367b46bfd504a48d89006) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2ecb0f5f95a091316b8fde6b8ccc782b') in 0.006193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_348.asset
+  artifactKey: Guid(090394a8261e5d4479100dee6756b989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_348.asset using Guid(090394a8261e5d4479100dee6756b989) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a0989f1b82a0a1a59c194f86a821a8fa') in 0.004848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_654.asset
+  artifactKey: Guid(d3477a06ffd8adc45a0970be948337d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_654.asset using Guid(d3477a06ffd8adc45a0970be948337d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bd6c31c626f820ff88ed49901f1fbbac') in 0.004406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_779.asset
+  artifactKey: Guid(81ac8467313bd3f4db6caab4896576d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_779.asset using Guid(81ac8467313bd3f4db6caab4896576d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'da00739a7c4be14091ed2eb79f791cf0') in 0.004196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_10.asset
+  artifactKey: Guid(fb2dbc93088560e4889df12c26f7468a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_10.asset using Guid(fb2dbc93088560e4889df12c26f7468a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bb1a24caf56dc9d5467c3437061d8eb1') in 0.005471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_263.asset
+  artifactKey: Guid(653d5d0b416b1be4fb702c9d898c2835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_263.asset using Guid(653d5d0b416b1be4fb702c9d898c2835) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'eb729640d6b2424208a6e1ef16ee3833') in 0.005181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_225.asset
+  artifactKey: Guid(10b987560baa3684ba258756728b0094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_225.asset using Guid(10b987560baa3684ba258756728b0094) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '437542228635a1aba6a5159239a4fc7e') in 0.005036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_508.asset
+  artifactKey: Guid(983b131c8fc12bc4e8c7a7a38d9593c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_508.asset using Guid(983b131c8fc12bc4e8c7a7a38d9593c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '44899f55483b71bcb130ecf25ac095a2') in 0.007718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_867.asset
+  artifactKey: Guid(c5a1d69af9d26374584b6641bd9d54ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_867.asset using Guid(c5a1d69af9d26374584b6641bd9d54ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b21f92ce2223ab38bba25c5a1f6bf74c') in 0.006491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_27.asset
+  artifactKey: Guid(f5cb3909ffc088941a3a733bbfd8e75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_27.asset using Guid(f5cb3909ffc088941a3a733bbfd8e75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '21dbf1cd8a93481c68ce5750ad91ea06') in 0.005401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Caves/Animations/Caves_Ani 1.asset
+  artifactKey: Guid(3a9c866910d7930488b147c356b199d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Caves/Animations/Caves_Ani 1.asset using Guid(3a9c866910d7930488b147c356b199d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c4fc5b8e72fb0c89d8637c9093350ede') in 0.001579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_230.asset
+  artifactKey: Guid(dd615906102c35b489a3a1ca71b82a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_230.asset using Guid(dd615906102c35b489a3a1ca71b82a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9e301ccd0252a8d67dfd45b55d311673') in 0.005746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_785.asset
+  artifactKey: Guid(24737b97a1482d242b46acaf55e9ee4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_785.asset using Guid(24737b97a1482d242b46acaf55e9ee4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8fc20cd202271ba92ea446b980bd121e') in 0.005625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_510.asset
+  artifactKey: Guid(b16de5c80b445144b8a8cf022a87b11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_510.asset using Guid(b16de5c80b445144b8a8cf022a87b11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'aa1f5791b5877db1cbe2230881fadc2f') in 0.004263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_661.asset
+  artifactKey: Guid(300008c99b6e15344bf7650f83f869eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_661.asset using Guid(300008c99b6e15344bf7650f83f869eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a4bd09a788917157d7beb27a1a75b42a') in 0.005423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_19.asset
+  artifactKey: Guid(453fb0d741996c34e9a8225913f6b1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_19.asset using Guid(453fb0d741996c34e9a8225913f6b1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '79b0d526ab9ad352dea7d20ce6af0e2d') in 0.004037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_875.asset
+  artifactKey: Guid(eb810e1284de2fe45acf92484c4c6cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_875.asset using Guid(eb810e1284de2fe45acf92484c4c6cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0931928ec22dbc685e6b6f51500690c9') in 0.004995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_7.asset
+  artifactKey: Guid(f11ceac1cce35c54baef4b9f4e2d5518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_7.asset using Guid(f11ceac1cce35c54baef4b9f4e2d5518) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '47647aeb35c142f5450d9d2457c120da') in 0.005796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_799.asset
+  artifactKey: Guid(52c2736aea4919e418b442fd10613e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_799.asset using Guid(52c2736aea4919e418b442fd10613e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e2289d5e9c6fd9b362b3d1f33e961b5a') in 0.005629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_477.asset
+  artifactKey: Guid(a9884b5ce6bf3c94f888b9ac29444d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_477.asset using Guid(a9884b5ce6bf3c94f888b9ac29444d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ba539faff960f581bd6ee92a3d3946ac') in 0.007891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_475.asset
+  artifactKey: Guid(7db7d5cea203a1a47b68f88798c81c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_475.asset using Guid(7db7d5cea203a1a47b68f88798c81c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7cd48479acccc20f64f971b76c985ec4') in 0.005050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_491.asset
+  artifactKey: Guid(1684215289113594bab8334014a4830f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_491.asset using Guid(1684215289113594bab8334014a4830f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9331b7f64ebe31a69117c192be4496ed') in 0.005131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_866.asset
+  artifactKey: Guid(97216d167cfc6e34ebea1394a0b8885f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_866.asset using Guid(97216d167cfc6e34ebea1394a0b8885f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8d33816b5e9d6ebc028b9087bad07391') in 0.003706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_784.asset
+  artifactKey: Guid(4b6c9eb5ad7d6614287185e84917c605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_784.asset using Guid(4b6c9eb5ad7d6614287185e84917c605) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '84a555d9b045879d45aa2c6e4e4594bf') in 0.006109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_498.asset
+  artifactKey: Guid(3d1e4ff547f532345a9f52bd7870ac9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_498.asset using Guid(3d1e4ff547f532345a9f52bd7870ac9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1bd12ceabc70c771d1425a5adbe8785e') in 0.004440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_838.asset
+  artifactKey: Guid(956846e7e648fff4abaf905e80c77b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_838.asset using Guid(956846e7e648fff4abaf905e80c77b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b93d6c62b1d6ed318aab1c413444fefe') in 0.005345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_974.asset
+  artifactKey: Guid(f7b3efd861bcb14489c509837c37b6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_974.asset using Guid(f7b3efd861bcb14489c509837c37b6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '011f16567c606fe9cf1a6424b0b95751') in 0.005049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_213.asset
+  artifactKey: Guid(20ccd18f4b76afa4a986ac311f0bd1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_213.asset using Guid(20ccd18f4b76afa4a986ac311f0bd1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9cbd077c3139a4ccf842f582192341f9') in 0.005312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_945.asset
+  artifactKey: Guid(3260161a705e87a4fbf558f63301db93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_945.asset using Guid(3260161a705e87a4fbf558f63301db93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e7280566824e2d5826784d3c4d7956b9') in 0.004138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_342.asset
+  artifactKey: Guid(b2bc2995e42b7f64eb84afcffbfb66a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_342.asset using Guid(b2bc2995e42b7f64eb84afcffbfb66a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '529b0c3c16bf60f998a4be5b2f09dc12') in 0.003783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_801.asset
+  artifactKey: Guid(969551173cdcdf24ab241a36851e234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_801.asset using Guid(969551173cdcdf24ab241a36851e234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '10002f784c4b2d4bdc80f023b2fff864') in 0.004704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_215.asset
+  artifactKey: Guid(12aa8ee5c72cb844d9937ba131b9e06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_215.asset using Guid(12aa8ee5c72cb844d9937ba131b9e06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ab9858150521f2c6dc4b83b727b9c210') in 0.004803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_827.asset
+  artifactKey: Guid(aaf89a54357f611479048743d5edf9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_827.asset using Guid(aaf89a54357f611479048743d5edf9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c1166768b44b6b0868f8191295fc03ac') in 0.005202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_944.asset
+  artifactKey: Guid(7b2a73baf43c405409140f73071243d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_944.asset using Guid(7b2a73baf43c405409140f73071243d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '40acd0147eee6e2deee6b5381290a509') in 0.006160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_220.asset
+  artifactKey: Guid(d4ac82aa7ac4e3641bc619fe0d83861e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_220.asset using Guid(d4ac82aa7ac4e3641bc619fe0d83861e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '51af5d08a575377b7ccf115a35261bfc') in 0.004912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_221.asset
+  artifactKey: Guid(175b7cda2104a9047859dddd62298a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_221.asset using Guid(175b7cda2104a9047859dddd62298a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '41163cec701604782e9bbf95b46a5928') in 0.005639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_262.asset
+  artifactKey: Guid(dd5e9e533d18fb441a891997d59c1682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_262.asset using Guid(dd5e9e533d18fb441a891997d59c1682) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a95f5e3b5eee5c75f40112c20121e473') in 0.004657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_6.asset
+  artifactKey: Guid(8da39d4f084abaa49b417d953aeaeb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_6.asset using Guid(8da39d4f084abaa49b417d953aeaeb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4a0524a5b2c50d6bf10df7ef8ec8b31a') in 0.004936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_471.asset
+  artifactKey: Guid(722976b104c117e4d96cf41e23089ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_471.asset using Guid(722976b104c117e4d96cf41e23089ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e9287d60efe5fbaecd928cc831a3c991') in 0.004253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Caves/Animations/Caves_Ani 12.asset
+  artifactKey: Guid(ac19db6d01294ed469c875cc4b324599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Caves/Animations/Caves_Ani 12.asset using Guid(ac19db6d01294ed469c875cc4b324599) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5615a4d98fc592967cb893eae9e65053') in 0.001377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_273.asset
+  artifactKey: Guid(9030fa206903bdb48af44bac40b69550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_273.asset using Guid(9030fa206903bdb48af44bac40b69550) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a5f576aa3bb0270380c14fcd9f6bd2c2') in 0.005434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_102.asset
+  artifactKey: Guid(e99a8cc1391c9b4428fad38601a488d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_102.asset using Guid(e99a8cc1391c9b4428fad38601a488d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '645eac63331c28dcb9a2d1326b5c5187') in 0.004902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_523.asset
+  artifactKey: Guid(4a355c2f63cbece47a87d7fcecab76de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_523.asset using Guid(4a355c2f63cbece47a87d7fcecab76de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'da151130bf130ed9d0c1d3793d2102a1') in 0.004805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_221.asset
+  artifactKey: Guid(dfe42436431ddd44ba1ab62d3bfc28c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_221.asset using Guid(dfe42436431ddd44ba1ab62d3bfc28c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '24a795d1d96a5e83bff20e2d43f50c87') in 0.004251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_776.asset
+  artifactKey: Guid(076e8125748ae8a40afa92b00ac667d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_776.asset using Guid(076e8125748ae8a40afa92b00ac667d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ba31220bb28eadc610fae365762eb520') in 0.005722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_258.asset
+  artifactKey: Guid(1ae839e1ee8566f43867084194c127d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_258.asset using Guid(1ae839e1ee8566f43867084194c127d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4644bedef06911d9d686edcb51c9a555') in 0.006675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_347.asset
+  artifactKey: Guid(edb500ee0ca1818408c5a372b7d4ea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_347.asset using Guid(edb500ee0ca1818408c5a372b7d4ea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd4d3c86e64e66ad2f07edd2dff79924f') in 0.005610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_979.asset
+  artifactKey: Guid(257de5b66bba7cc47b5b0740f4566ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_979.asset using Guid(257de5b66bba7cc47b5b0740f4566ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '64c9ea67dc7477a98f9784d7543a78bf') in 0.004196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_946.asset
+  artifactKey: Guid(995a8bda96b8fe448b5974ee9c46374a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_946.asset using Guid(995a8bda96b8fe448b5974ee9c46374a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '56238c020b36ec6364467567677941ca') in 0.006917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_596.asset
+  artifactKey: Guid(165a01d8e1b072348ba3195b02e1754c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_596.asset using Guid(165a01d8e1b072348ba3195b02e1754c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '796b45b6f9c5a1e78a25da4b712da4f4') in 0.004207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_44.asset
+  artifactKey: Guid(cd2efecc2d1038b4497327894772c7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_44.asset using Guid(cd2efecc2d1038b4497327894772c7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3d408483a111bca16587e45a64011734') in 0.005746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_16.asset
+  artifactKey: Guid(0c6a2c7589b14c84184d6286e73b14d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_16.asset using Guid(0c6a2c7589b14c84184d6286e73b14d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '096fbd61e823a8f610b374365037474c') in 0.003812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_878.asset
+  artifactKey: Guid(19c5cbf98ae968e4dad898c607279080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_878.asset using Guid(19c5cbf98ae968e4dad898c607279080) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '63fe67daf5e2fa0255b4224e2b937869') in 0.004406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_782.asset
+  artifactKey: Guid(116cf46fe2ca25a45a619b27fba9c612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_782.asset using Guid(116cf46fe2ca25a45a619b27fba9c612) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c82bb791e2ca5e322f8da57a7563a9ec') in 0.004648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_228.asset
+  artifactKey: Guid(d5ea343695958ba49937e593de8ef84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_228.asset using Guid(d5ea343695958ba49937e593de8ef84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '971910617833dc50481d33623e137d5a') in 0.004620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_975.asset
+  artifactKey: Guid(9f267cd501ba84d40b5a059b38acaf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_975.asset using Guid(9f267cd501ba84d40b5a059b38acaf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b433c064791e5e5a379994be653db914') in 0.005191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_832.asset
+  artifactKey: Guid(a5bbe3e747469d24c84113d89e629f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_832.asset using Guid(a5bbe3e747469d24c84113d89e629f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a96fa9abb31486d5183631d802fb54f8') in 0.004989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_972.asset
+  artifactKey: Guid(36af57017285f12409c98d2f0104d0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_972.asset using Guid(36af57017285f12409c98d2f0104d0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bf2ac60218bf3195ab93198bd713cfb8') in 0.004095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_772.asset
+  artifactKey: Guid(7b08ce946de2e444fbdf19f22366ba1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_772.asset using Guid(7b08ce946de2e444fbdf19f22366ba1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '11660ac3000e61370f28e72f8d32ad0b') in 0.004601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_592.asset
+  artifactKey: Guid(c4c31018d634834429cb769038a24e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_592.asset using Guid(c4c31018d634834429cb769038a24e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8bc07cd8955591347f2592501c4d4d39') in 0.005096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_19.asset
+  artifactKey: Guid(01cadf8e881e062479c5ea62613055f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_19.asset using Guid(01cadf8e881e062479c5ea62613055f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '41bb07a730d7839a8c9fbcf9c72f8663') in 0.004795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_14.asset
+  artifactKey: Guid(ab337d640488ac141bc4841ca3d7f171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_14.asset using Guid(ab337d640488ac141bc4841ca3d7f171) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a113dd699d3ea12afd0f133d7ae118c2') in 0.005089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_5.asset
+  artifactKey: Guid(f28b3fd4f2c723449b61e52bc49d7e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_5.asset using Guid(f28b3fd4f2c723449b61e52bc49d7e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '77f4776371d84eb743783d41af104a4a') in 0.004738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_832.asset
+  artifactKey: Guid(f82d58a696b5d004c8c07193f7446591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_832.asset using Guid(f82d58a696b5d004c8c07193f7446591) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '00899681c30879ce58d2a40c42e537a3') in 0.006069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_26.asset
+  artifactKey: Guid(cc6fc180bc8e3b7489cf6c1290cad5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_26.asset using Guid(cc6fc180bc8e3b7489cf6c1290cad5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bb22dece4f803dc018adc9f999e0fa22') in 0.005288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_800.asset
+  artifactKey: Guid(d1b21227fc1e42040b39ad834b5123ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_800.asset using Guid(d1b21227fc1e42040b39ad834b5123ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '62dc097c11dd8b1a4098c46717ec65aa') in 0.004617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_266.asset
+  artifactKey: Guid(0d8a860853f89244690928f602f8617d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_266.asset using Guid(0d8a860853f89244690928f602f8617d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f87b4a53b6007393d8dd99783babe651') in 0.005370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_60.asset
+  artifactKey: Guid(e16705fc076c90447ade4b5e9befae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_60.asset using Guid(e16705fc076c90447ade4b5e9befae22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '30caca6ac60a28df62dda25669849463') in 0.004826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_50.asset
+  artifactKey: Guid(31895cef70dc3764ba3eb4cba75893a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_50.asset using Guid(31895cef70dc3764ba3eb4cba75893a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'eb4e197aa1d2ec89196a507f0a9f501c') in 0.006467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_789.asset
+  artifactKey: Guid(68c0de6993b8c3a4aa6ebd32ad5db559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_789.asset using Guid(68c0de6993b8c3a4aa6ebd32ad5db559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e9dd50529d7821d35ad6daeaf1b170c6') in 0.004836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_3.asset
+  artifactKey: Guid(8395bc1a117b948438213b97aed0ddd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_3.asset using Guid(8395bc1a117b948438213b97aed0ddd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0ca052d5c2c523af68640c2f5f85036d') in 0.004782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_33.asset
+  artifactKey: Guid(4d54ba7a013d02b4faac9d8bfcbe976b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_33.asset using Guid(4d54ba7a013d02b4faac9d8bfcbe976b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5af0e01c295692aae49f65052763182f') in 0.004225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_976.asset
+  artifactKey: Guid(af77a4639d29fa54294c7cc602baa7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_976.asset using Guid(af77a4639d29fa54294c7cc602baa7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '06f7265b203d2079b1cb93f76e6c824a') in 0.004681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_13.asset
+  artifactKey: Guid(077c1fc2ff98b5e48b2ded03db3aaf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_13.asset using Guid(077c1fc2ff98b5e48b2ded03db3aaf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c23f019a20ca7e54438e9d828870fe3d') in 0.004101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_63.asset
+  artifactKey: Guid(20270704d605b4a48b74751598a4cc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_63.asset using Guid(20270704d605b4a48b74751598a4cc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'aa84be1cd19a85378159adf2be06c598') in 0.004574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_43.asset
+  artifactKey: Guid(5d48997c9f70fda4eab89c63f8847648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_43.asset using Guid(5d48997c9f70fda4eab89c63f8847648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '03a5f3cc0609d6a41b8e115eccfdcc41') in 0.004053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_774.asset
+  artifactKey: Guid(bf8f6ea8ae116d143906dadb209d92e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_774.asset using Guid(bf8f6ea8ae116d143906dadb209d92e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3060ff69dae6888afe572a832b6be17c') in 0.006354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_879.asset
+  artifactKey: Guid(6880f4e3010c3b84abb04d8d02e06ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_879.asset using Guid(6880f4e3010c3b84abb04d8d02e06ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '31ca96f5a19fa624fb470806de0f11d6') in 0.005137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_598.asset
+  artifactKey: Guid(369a46c33cd39fe4a9c2acc96a8c53eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_598.asset using Guid(369a46c33cd39fe4a9c2acc96a8c53eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f887326a602647f141ac8ee830f5a7c2') in 0.005886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_215.asset
+  artifactKey: Guid(81ff7f5b66672994195d862565701c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_215.asset using Guid(81ff7f5b66672994195d862565701c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7bc4027815329707c85fd5b61560693a') in 0.007605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_982.asset
+  artifactKey: Guid(fd688404c5d39f44da8905b932f75f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_982.asset using Guid(fd688404c5d39f44da8905b932f75f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '10faeffd21a58c103b55e28972634614') in 0.005618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_49.asset
+  artifactKey: Guid(57a4b65372ad53040a784e55684715f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_49.asset using Guid(57a4b65372ad53040a784e55684715f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b5f7dc6ea168e414a6edca1711b3e234') in 0.005140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_786.asset
+  artifactKey: Guid(803dcd1bf9b84ee4ab500e5ef7e8891f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_786.asset using Guid(803dcd1bf9b84ee4ab500e5ef7e8891f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6c02fc93ca7e6ec6ea4854a7e13d1452') in 0.004886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_1.asset
+  artifactKey: Guid(5974973772e07034fb9d15e4d18f899a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_1.asset using Guid(5974973772e07034fb9d15e4d18f899a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '03d4b536d6eb71c7e410247e012cb090') in 0.004388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_662.asset
+  artifactKey: Guid(4e7bb55dae20eb34586ffe33dbfa61c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_662.asset using Guid(4e7bb55dae20eb34586ffe33dbfa61c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '47431d64ddd26df5168eb238a0c5a518') in 0.004057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_941.asset
+  artifactKey: Guid(c305d1e828a36ff4b93fce89696ff8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_941.asset using Guid(c305d1e828a36ff4b93fce89696ff8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a7a407ce9979bed51663544a5de0ffb0') in 0.004601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/FD_Winter_Village.png
+  artifactKey: Guid(c5961f3600310be41a94fffb565ee29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/FD_Winter_Village.png using Guid(c5961f3600310be41a94fffb565ee29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c08cd391a0c24c4a3aed5ba4cd22e09f') in 1.106045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 982
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_825.asset
+  artifactKey: Guid(81daed905af4a3f4db428c61b5fa29c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_825.asset using Guid(81daed905af4a3f4db428c61b5fa29c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4975da84b3b3c32ed4d1326e5d059ef7') in 0.004404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_646.asset
+  artifactKey: Guid(9f7548ea906d36f47b79749b889f5e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Village/Tiles/FDR_Village_646.asset using Guid(9f7548ea906d36f47b79749b889f5e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f1f0f7f5494f6e2c87b4541fa077e2af') in 0.005379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_607.asset
+  artifactKey: Guid(c43cf72a2b5196740a427578c820f6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_607.asset using Guid(c43cf72a2b5196740a427578c820f6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '888939a517a33f00ebeaa6e84e19ccff') in 0.004337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_838.asset
+  artifactKey: Guid(d3091886a864754469ec8bfdd36e0ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_838.asset using Guid(d3091886a864754469ec8bfdd36e0ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e3cb3c7286c4f5d89a4385d76bf88035') in 0.004860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_933.asset
+  artifactKey: Guid(05bd6bb9544f1bc4f851e3356c9c2182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_933.asset using Guid(05bd6bb9544f1bc4f851e3356c9c2182) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fb7825cf6538cee07599f04186fbd517') in 0.005974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_40.asset
+  artifactKey: Guid(6812d49712067f1478438844997359eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_40.asset using Guid(6812d49712067f1478438844997359eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3d68b3eee6665a7d82e7334c3048ca2c') in 0.004991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_478.asset
+  artifactKey: Guid(d2e04d04c5164ee429b997336652e4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Winter Village/Tiles/FD_Winter_Village_478.asset using Guid(d2e04d04c5164ee429b997336652e4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '57c5109c083a1c1a5a5ad53cd1583c3c') in 0.005537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_35.asset
+  artifactKey: Guid(d4f99572314560545b0c278985ae645a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland Reborn/Winter Village/Tiles/FDR_Winter_Village_35.asset using Guid(d4f99572314560545b0c278985ae645a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4e9808a6937007be452c205b186f5e75') in 0.004652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_14.asset
+  artifactKey: Guid(0259079d5de71de45980d4629b04a3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3rdParty/ElvGames/Fantasy Dreamland/Tilesets/Village/Tiles/FD_Village_14.asset using Guid(0259079d5de71de45980d4629b04a3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9b62f49bef413ec538707add414fd650') in 0.006061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.52 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (2.1 MB). Loaded Objects now: 7219.
+Memory consumption went from 220.0 MB to 217.9 MB.
+Total: 18.012200 ms (FindLiveObjects: 3.179600 ms CreateObjectMapping: 1.707400 ms MarkObjects: 11.777600 ms  DeleteObjects: 1.346100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
