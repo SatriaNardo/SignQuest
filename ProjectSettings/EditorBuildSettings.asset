@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/3rdParty/TopDownEngine/ThirdParty/MoreMountains/MMTools/Core/MMSceneLoading/LoadingScreens/LoadingScreen.unity
     guid: 888394d52616e5e42b3b54c3f2bbd3eb
-  - enabled: 1
+  - enabled: 0
     path: Assets/3rdParty/TopDownEngine/Demos/LevelSelection/LevelSelection.unity
     guid: f991cbe75cb701b43baec351a60a630a
   - enabled: 0
@@ -44,25 +44,25 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/3rdParty/TopDownEngine/Demos/Grasslands/Grasslands.unity
     guid: 9cd50f8579a65684ebaac5e7cb00ecd3
-  - enabled: 1
+  - enabled: 0
     path: Assets/3rdParty/TopDownEngine/Demos/Minimal2D/MinimalScene2D.unity
     guid: 55ddb45e2869f6e488e05e2d4e442e06
-  - enabled: 1
+  - enabled: 0
     path: Assets/3rdParty/TopDownEngine/Demos/Minimal2D/Minimal2DCharacterSwap.unity
     guid: 803747b12a3ce8b4ea9cc2d027636ac5
-  - enabled: 1
+  - enabled: 0
     path: Assets/3rdParty/TopDownEngine/Demos/Minimal2D/Minimal2DCharacterSwitch.unity
     guid: 894506db76a92f54ab232e584515d7c1
-  - enabled: 1
+  - enabled: 0
     path: Assets/3rdParty/TopDownEngine/Demos/Minimal2D/Minimal2DGrid.unity
     guid: ff7b055b4f326dc49807c73993832718
-  - enabled: 1
+  - enabled: 0
     path: Assets/3rdParty/TopDownEngine/Demos/Minimal2D/Minimal2DDoors1.unity
     guid: b3ddfa5326bb9324b86fff99128cda1a
-  - enabled: 1
+  - enabled: 0
     path: Assets/3rdParty/TopDownEngine/Demos/Minimal2D/Minimal2DDoors2.unity
     guid: 19051fa15f79b584cb784d4c79987b20
-  - enabled: 1
+  - enabled: 0
     path: Assets/3rdParty/TopDownEngine/Demos/Minimal2D/MinimalSandbox2D.unity
     guid: 95a84b442e98a37428865aa09f7e9efb
   - enabled: 0

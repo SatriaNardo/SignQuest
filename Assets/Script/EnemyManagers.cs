@@ -32,5 +32,6 @@ public class EnemyManagers : MonoBehaviour
     public void DeregisterEnemy()
     {
         ActiveEnemies.Clear();
+        ActiveEnemiesLevel.Clear();
     }
 }

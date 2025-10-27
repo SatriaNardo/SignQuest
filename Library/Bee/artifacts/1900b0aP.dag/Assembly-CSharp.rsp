@@ -95,7 +95,6 @@
 -define:ENABLE_MONO
 -define:NET_4_6
 -define:NET_UNITY_4_8
--define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -305,6 +304,8 @@
 -r:"D:/Unity/Hub/Editor/2022.3.48f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"D:/Unity/Hub/Editor/2022.3.48f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/io.github.ruccho.graphicscapture.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Klak.Spout.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/MoreMountains.Interface.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/MoreMountains.InventoryEngine.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/MoreMountains.Tools.ref.dll"
@@ -327,6 +328,13 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 -analyzer:"D:/Unity/Hub/Editor/2022.3.48f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Unity/Hub/Editor/2022.3.48f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/3rdParty/Book-Page Curl Pro/Examples/scripts/AddPagesDynamically.cs"
+"Assets/3rdParty/Book-Page Curl Pro/Examples/scripts/BotAnimationControl.cs"
+"Assets/3rdParty/Book-Page Curl Pro/Examples/scripts/FastForwardFlipper.cs"
+"Assets/3rdParty/Book-Page Curl Pro/Scripts/AutoFlip.cs"
+"Assets/3rdParty/Book-Page Curl Pro/Scripts/BookPro.cs"
+"Assets/3rdParty/Book-Page Curl Pro/Scripts/PageFlipper.cs"
+"Assets/3rdParty/Book-Page Curl Pro/Scripts/Tween.cs"
 "Assets/3rdParty/Layer Lab/GUI Pro-CasualGame/Extensions/UIParticle/UIParticleSystem.cs"
 "Assets/3rdParty/Layer Lab/GUI-YellowKid/Scripts/PanelControlYellowKid.cs"
 "Assets/3rdParty/Layer Lab/GUI-YellowKid/Scripts/PanelYellowKid.cs"
@@ -384,7 +392,19 @@
 "Assets/BackToRealWorld.cs"
 "Assets/ChangeScene.cs"
 "Assets/ChiScrollRect.cs"
+"Assets/CraftingTrigger.cs"
+"Assets/CraftingUI.cs"
 "Assets/HoveringButton.cs"
+"Assets/Inventories.cs"
+"Assets/KeepItAlive.cs"
+"Assets/LearningToggleController.cs"
+"Assets/PersistentStuff.cs"
+"Assets/PersistentUI.cs"
+"Assets/QuitGame.cs"
+"Assets/RandomLetterDisplay.cs"
+"Assets/RandomWalker.cs"
+"Assets/RecipeUI.cs"
+"Assets/RecipeUIHandler.cs"
 "Assets/Script/ActiveSlotManager.cs"
 "Assets/Script/AfterBattleSpawn.cs"
 "Assets/Script/BattleData.cs"
@@ -401,6 +421,8 @@
 "Assets/Script/CharacterPopulator.cs"
 "Assets/Script/CharacterSlot.cs"
 "Assets/Script/Combatant.cs"
+"Assets/Script/CraftingManager.cs"
+"Assets/Script/CraftingRecipe.cs"
 "Assets/Script/DragDropHandler.cs"
 "Assets/Script/EncounterEnemies.cs"
 "Assets/Script/Enemies.cs"
@@ -410,12 +432,16 @@
 "Assets/Script/Heroes.cs"
 "Assets/Script/MoveBase.cs"
 "Assets/Script/Moves.cs"
+"Assets/Script/OnClickSFX.cs"
 "Assets/Script/SceneLoader.cs"
+"Assets/Script/SoundManager.cs"
 "Assets/Script/SpawnData.cs"
+"Assets/Script/TutorialChecker.cs"
 "Assets/Script/UDPReceive.cs"
 "Assets/Script/WanderingEnemy.cs"
 "Assets/SpawnAfterBattle.cs"
 "Assets/TeamActive.cs"
+"Assets/TutorialChecker2.cs"
 -langversion:9.0
 /deterministic
 /optimize+

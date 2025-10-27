@@ -43,6 +43,8 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] GameObject firstPanelSign;
     [SerializeField] GameObject secondPanelSign;
     [SerializeField] GameObject thirdPanelSign;
+    [SerializeField] TextMeshProUGUI countDown;
+    [SerializeField] GameObject count;
     public List<RectTransform> turnPanels = new List<RectTransform>();
     public List<Button> highlightEnemies = new List<Button>();
     public List<Button> highlightHeroes = new List<Button>();
@@ -352,10 +354,9 @@ public class BattleSystem : MonoBehaviour
         // Enter slow motion for 6 seconds and allow key input
         float originalTimeScale = Time.timeScale;
         playerUnit.SetAnimation(currentHeroForAnim, hero.bases.heroType);
-        Time.timeScale = 0.2f; // Slow motion
+        Time.timeScale = 0.1f; // Slow motion
         yield return StartCoroutine(HandleBuffInput());
         Time.timeScale = originalTimeScale; // Restore time scale
-
         // Calculate damage multiplier based on key inputs
         float damageMultiplier = CalculateBuffMultiplier();
         //Debug.Log($"Damage multiplier: {damageMultiplier}");
@@ -425,7 +426,7 @@ public class BattleSystem : MonoBehaviour
         letterToSprite = letterImages.ToDictionary(x => x.letter, x => x.image);
         //string alphabet = "abcdefghiklmnopqrstuvwxy";
         int learning = PlayerPrefs.GetInt("IsToggleOn");
-        string alphabet = "ABCDEFGHIKLMNOPQRSTUVWXYZ";
+        string alphabet = "AEIUNOCGRD";
         string[] keySequence = alphabet.ToCharArray().OrderBy(c => Random.value).Take(3).Select(c => c.ToString()).ToArray();
         string firstWord = keySequence[0];
         string secondWord = keySequence[1];
@@ -460,41 +461,41 @@ public class BattleSystem : MonoBehaviour
         for (int index = 0; index < keySequence.Length; index++)
         {
             bool keyMatched = false;
-            float timer = 2f; // Allow 2 seconds for each input during slow motion
+            float timer = 5f;
 
             while (timer > 0)
             {
-                timer -= Time.unscaledDeltaTime; // Use unscaled delta time during slow motion
-                if (signCode.data.ToLower() == keySequence[index]) 
+                count.SetActive(true);
+                countDown.text = ((int)timer).ToString();
+                timer -= Time.unscaledDeltaTime;
+
+                if (signCode.data == keySequence[index])
                 {
                     keyMatched = true;
-                    if(correctKeys == 0)
-                    {
-                        firstTextPlace.SetActive(false);
-                    }
-                    if (correctKeys == 1)
-                    {
-                        secondTextPlace.SetActive(false);
-                    }
-                    if (correctKeys == 2)
-                    {
-                        thirdTextPlace.SetActive(false);
-                    }
+                    if (correctKeys == 0) firstTextPlace.SetActive(false);
+                    if (correctKeys == 1) secondTextPlace.SetActive(false);
+                    if (correctKeys == 2) thirdTextPlace.SetActive(false);
                     correctKeys++;
-                    break;
+                    break; // exit while loop
                 }
 
                 yield return null;
             }
 
-            if (!keyMatched)
+            if (!keyMatched && timer <= 0)
             {
-               
+                indicatorText.SetActive(false);
+                count.SetActive(false);
+                PlayerPrefs.SetInt("CorrectKeys", correctKeys);
+                break; // exit for loop completely if timer ran out
             }
+
+            Debug.Log("waa");
         }
+
         indicatorText.SetActive(false);
-        // Store the number of correct keys
-        PlayerPrefs.SetInt("CorrectKeys", correctKeys); // Temporary storage for calculation
+        count.SetActive(false);
+        PlayerPrefs.SetInt("CorrectKeys", correctKeys);
     }
 
     // Method to calculate the buff multiplier
@@ -717,7 +718,7 @@ public class BattleSystem : MonoBehaviour
         }
         dialogueBox.UpdateActionSelection(currentAction);
 
-        if(Input.GetKeyDown(KeyCode.E))
+        if(Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return))
         {
             if(currentAction == 0)
             {
@@ -795,7 +796,7 @@ public class BattleSystem : MonoBehaviour
             currentAction = 1;
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return))
         {
             // Get selected move
             var selectedMove = curHeroes.Move[currentAction + 1];
@@ -874,7 +875,7 @@ public class BattleSystem : MonoBehaviour
             currentAction = 1;
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return))
         {
             // Get selected move
             var selectedItem = consumableItems[0];
@@ -914,7 +915,7 @@ public class BattleSystem : MonoBehaviour
             }
         }
         UpdateEnemiesSelection(currentEnemies);
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return))
         {
             state = BattleState.Busy;
             StartCoroutine(PerformPlayerMove(curHeroes, currentEnemies, attackMoves));
@@ -964,7 +965,7 @@ public class BattleSystem : MonoBehaviour
 
         UpdateHeroesSelection(currentAlly); // You'll implement this like UpdateEnemiesSelection
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Return))
         {
             state = BattleState.Busy;
             StartCoroutine(PerformPlayerMove(curHeroes, -1, attackMoves, currentAlly));

@@ -9,6 +9,7 @@ public class LearningToggleController : MonoBehaviour
 
     void Start()
     {
+        PlayerPrefs.DeleteAll();
         // Check the current PlayerPrefs value and set the toggle state accordingly
         if (PlayerPrefs.GetInt("IsToggleOn", 0) == 1)
         {

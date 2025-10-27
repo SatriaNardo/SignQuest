@@ -1000,6 +1000,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Klak.Spout.Editor">
+      <HintPath>Library\ScriptAssemblies\Klak.Spout.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
       <Private>False</Private>
@@ -1066,6 +1070,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Klak.Spout.Runtime">
+      <HintPath>Library\ScriptAssemblies\Klak.Spout.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
@@ -1185,6 +1193,10 @@
     <ProjectReference Include="MoreMountains.Interface.csproj">
       <Project>{45502E94-1D11-7CAC-2899-93FBE55A413A}</Project>
       <Name>MoreMountains.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="io.github.ruccho.graphicscapture.csproj">
+      <Project>{27D49443-1FC5-3678-6065-72303B1B1612}</Project>
+      <Name>io.github.ruccho.graphicscapture</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.csproj">
       <Project>{B9BCC7B4-5705-CCCA-5EFF-9D602CE34091}</Project>

@@ -60,9 +60,11 @@
     <Analyzer Include="D:\Unity\Hub\Editor\2022.3.48f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PersistentStuff.cs" />
     <Compile Include="Assets\Script\BattleScript\BattleUnit.cs" />
     <Compile Include="Assets\Script\EncounterEnemies.cs" />
     <Compile Include="Assets\3rdParty\SPUM\Script\SPUM_LoadPrefabPanel.cs" />
+    <Compile Include="Assets\TutorialChecker2.cs" />
     <Compile Include="Assets\Script\DragDropHandler.cs" />
     <Compile Include="Assets\Script\BattleScript\BattleHUD.cs" />
     <Compile Include="Assets\Script\WanderingEnemy.cs" />
@@ -113,14 +115,18 @@
     <Compile Include="Assets\Script\SceneLoader.cs" />
     <Compile Include="Assets\Script\CraftingRecipe.cs" />
     <Compile Include="Assets\3rdParty\SPUM\Script\SoonsoonData.cs" />
+    <Compile Include="Assets\Script\OnClickSFX.cs" />
+    <Compile Include="Assets\Script\TutorialChecker.cs" />
     <Compile Include="Assets\3rdParty\Layer Lab\Scripts\PanelView.cs" />
     <Compile Include="Assets\3rdParty\SPUM\Sprite_Editor(Beta)\Script\SpriteSync.cs" />
     <Compile Include="Assets\Script\BattleData.cs" />
     <Compile Include="Assets\3rdParty\SPUM\Sprite_SheetExporter(Beta)\Script\SPUM_Exporter.cs" />
+    <Compile Include="Assets\QuitGame.cs" />
     <Compile Include="Assets\Script\CharacterSlot.cs" />
     <Compile Include="Assets\BackToRealWorld.cs" />
     <Compile Include="Assets\3rdParty\SPUM\Script\Plugin\Moments Recorder\Scripts\Gif\NeuQuant.cs" />
     <Compile Include="Assets\3rdParty\SPUM\Script\SPUM_PreviewMatchingList.cs" />
+    <Compile Include="Assets\PersistentUI.cs" />
     <Compile Include="Assets\3rdParty\SPUM\Script\SPUM_AnimationPreset.cs" />
     <Compile Include="Assets\SpawnAfterBattle.cs" />
     <Compile Include="Assets\3rdParty\Book-Page Curl Pro\Examples\scripts\FastForwardFlipper.cs" />
@@ -142,6 +148,7 @@
     <Compile Include="Assets\RandomLetterDisplay.cs" />
     <Compile Include="Assets\3rdParty\Book-Page Curl Pro\Scripts\Tween.cs" />
     <Compile Include="Assets\3rdParty\SPUM\Script\Plugin\Moments Recorder\Scripts\Gif\GifEncoder.cs" />
+    <Compile Include="Assets\Script\SoundManager.cs" />
     <Compile Include="Assets\Script\SpawnData.cs" />
     <Compile Include="Assets\3rdParty\SPUM\Script\Plugin\Moments Recorder\Scripts\Gif\GifFrame.cs" />
     <Compile Include="Assets\RecipeUIHandler.cs" />
@@ -169,10 +176,13 @@
     <Compile Include="Assets\3rdParty\SPUM\Script\Plugin\Moments Recorder\Scripts\ReflectionUtils.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\3rdParty\ScreenSharingTest\UnityGraphicsCapture-master\UnityGraphicsCapture\ProjectSettings\ProjectVersion.txt" />
     <None Include="Assets\3rdParty\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\3rdParty\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\3rdParty\Adventure RPG Essentials Music Pack v1.1\ReadMe.txt" />
     <None Include="Assets\3rdParty\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Shaders\GreyScale.shader" />
     <None Include="Assets\3rdParty\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\3rdParty\ScreenSharingTest\UnityGraphicsCapture-master\UnityGraphicsCapture\Packages\io.github.ruccho.graphicscapture\Plugins\x64\GraphicsCapture.dll" />
     <None Include="Assets\3rdParty\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Shaders\VerticalGradient.shader" />
     <None Include="Assets\3rdParty\TopDownEngine\license.txt" />
     <None Include="Assets\3rdParty\Layer Lab\GUI Pro-CasualGame\Extensions\UIParticle\hidden particle.shader" />
@@ -188,6 +198,7 @@
     <None Include="Assets\3rdParty\TopDownEngine\readme.txt" />
     <None Include="Assets\3rdParty\TopDownEngine\ThirdParty\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\3rdParty\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\3rdParty\ScreenSharingTest\UnityGraphicsCapture-master\UnityGraphicsCapture\Packages\io.github.ruccho.graphicscapture\Plugins\x86\GraphicsCapture.dll" />
     <None Include="Assets\3rdParty\SPUM\ReadMe - 1.7.5.txt" />
     <None Include="Assets\3rdParty\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\3rdParty\TopDownEngine\ThirdParty\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
@@ -1069,6 +1080,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Klak.Spout.Editor">
+      <HintPath>Library\ScriptAssemblies\Klak.Spout.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
       <Private>False</Private>
@@ -1135,6 +1150,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Klak.Spout.Runtime">
+      <HintPath>Library\ScriptAssemblies\Klak.Spout.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
@@ -1250,6 +1269,10 @@
     <ProjectReference Include="MoreMountains.Interface.csproj">
       <Project>{45502E94-1D11-7CAC-2899-93FBE55A413A}</Project>
       <Name>MoreMountains.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="io.github.ruccho.graphicscapture.csproj">
+      <Project>{27D49443-1FC5-3678-6065-72303B1B1612}</Project>
+      <Name>io.github.ruccho.graphicscapture</Name>
     </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.csproj">
       <Project>{B9BCC7B4-5705-CCCA-5EFF-9D602CE34091}</Project>
